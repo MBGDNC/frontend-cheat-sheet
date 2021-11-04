@@ -10,7 +10,19 @@
     <body>
         <h1>This is my frontend cheat sheet!</h1>
         <p>I will fill it in as we learn new things!</p>
-        <h1>HTML</h1>
+        <p>Visit my GitHub profile:</p>
+        <a href="https://github.com/MBGDNC" target="_blank"><img src="./Slike/github.svg.png" alt="Github logo" width=100></a>
+        <p>Get in touch,<a href="mailto:m.bogdanic@icloud.com"> send a message</a></p>
+        <h2>Tablica sadržaja:</h2>
+        <ol>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#Zadatak">Zadatak</a></li>
+            <li><a href="#Zadatak2">Zadatak 2</a></li>
+            <li><a href="#Zadatak3">Zadatak 3</a></li>
+            <li><a href="#Audio">Audio</a></li>
+            <li><a href="#video">Video</a></li>
+        </ol>
+        <h1 id="HTML">HTML</h1>
         <h2>Basic HTML document structure</h2>
         <pre>
             &lt;DOCTYPE html&gt;
@@ -41,7 +53,7 @@
             <dt>small</dt>
             <dd>Used for footer text.</dd>
         </dl>
-        <h2>Zadatak</h2>
+        <h2 id="Zadatak">Zadatak</h2>
         <h3>HTML:</h3>
         <ul>
             <li>Standard markup language for documents designed to be displayed in a web browser.</li>
@@ -59,7 +71,7 @@
             <dt><strong>Metadata</strong></dt>
             <dd>A set of data that describes and gives information about other data.</dd>
         </dl>
-        <h2>Zadatak 2</h2>
+        <h2 id="Zadatak2">Zadatak 2</h2>
         <h3>HTML</h3>
         <img src=./Slike/HTML5.svg alt="HTML5 logo" height="120">
         <h3>CSS 3</h3>
@@ -68,7 +80,7 @@
         <img src=./Slike/JavaScript.svg.png alt="Javascript logo" height="120" width="120">
         <h3>Google Chrome</h3>
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" alt="Chrome logo" height="120">
-        <h2>Zadatak 3</h2>
+        <h2 id=Zadatak3>Zadatak 3</h2>
         <img src=./Slike/hello_world.gif alt="Hello world GIF" height="150" width="150"><br>
         <h3>Flag of Japan</h3>
         <svg
@@ -76,5 +88,15 @@
             <rect width="100%" height="50%" stroke="grey" stroke-width="4"></rect>
             <circle cx="150" cy="75" r="40" fill="red" stroke-width="2"></circle>
         </svg>
+        <h2 id="Audio">Audio</h2>
+        <audio controls>
+            <source src="./music.mp3">
+        </audio>
+        <h2 id="video">Video</h2>
+        <video width="600" controls>
+            <source src="./video.mp4">
+        </video>
+        <h3><a href="about.html">Visit my about page!</a></h3>
+        <h3><a href="#Top">Return to top</a></h3>
     </body>
 </html>
