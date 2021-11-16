@@ -52,6 +52,7 @@
             </ol>
             <li><a href="#Hyper">Hyperlinks</a></li>
             <li><a href="#Tables">Tables</a></li>
+            <li><a href="#Forms">Forms</a></li>
         </ol>
         <h1 id="Document_structure">HTML</h1>
         <h2>Basic HTML document structure</h2>
@@ -139,7 +140,7 @@
         </video>
         <h5><a href="#">Return to top</a></h5>
         <h2 id="Hyper">Hyperlinks</h2>
-        <h3><a href="./about.html">Visit my about page!</a></h3>
+        <h3><a href="./About.html">Visit my about page!</a></h3>
         <h5><a href="#">Return to top</a></h5>
         <h2 id="Tables">Tables</h2>
         <table border="1">
@@ -220,5 +221,28 @@
                 <td>Hrvatski</td>
             </tr>
         </table>
+        <h2 id="Forms">Forms</h2>
+        <h3>Search</h3>
+        <form action="https://www.ecosia.org/search" method="get"> 
+            <label>Search:</label>
+            <input type="text" name="q">
+            <button type="submit">Go!</button>
+            <button type="reset">Reset!</button>
+        </form>
+        <h3>Zadatak</h3>
+        <h4>Google</h4>
+        <form action="https://www.google.hr/search" method="get">
+            <label>Search on Google:</label>
+            <input type="text" name="q">
+            <button type="submit">Google it!</button>
+            <button type="reset">Reset!</button>
+        </form>
+        <h4>Amazon</h4>
+        <form action="https://www.amazon.com/s" method="get">
+            <label>Search on Amazon:</label>
+            <input type="text" name="k">
+            <button type="submit">Search on Amazon!</button>
+            <button type="reset">Reset!</button>
+        </form>
     </body>
 </html>
