@@ -261,5 +261,24 @@
             </select>
             <br><button type="submit">Let me in!</button>
         </form>
+        <h3>Survey</h3>
+        <form action="">
+            <p>Dobro se snalazim u HTML-u (1 - u potpunosti se ne slažem, 5 - u potpunosti se slažem)</p>
+            <label><input type="radio" name="answer" value="1"> 1</label>
+            <label><input type="radio" name="answer" value="2"> 2</label>
+            <label><input type="radio" name="answer" value="3" checked> 3</label>
+            <label><input type="radio" name="answer" value="4"> 4</label>
+            <label><input type="radio" name="answer" value="5"> 5</label>
+        </form>
+        <h3>Newsletter form</h3>
+        <form action="">
+            <label>Please enter your email address:<br><input type="email" name="email" placeholder="Email" required></label>
+            <h4>Pick your newsletter topic(s):</h4>
+            <label>News<input type="checkbox" name="newsletter_topic" value="1"></label><br>
+            <label>Sport<input type="checkbox" name="newsletter_topic" value="2"></label><br>
+            <label>Politics<input type="checkbox" name="newsletter_topic" value="3"></label><br>
+            <label>Science<input type="checkbox" name="newsletter_topic" value="4"></label><br>
+            <button type="submit">Sign me up!</button>
+        </form>
     </body>
 </html>
