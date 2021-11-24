@@ -52,6 +52,11 @@
             <li><a href="#Hyper">Hyperlinks</a></li>
             <li><a href="#Tables">Tables</a></li>
             <li><a href="#Forms">Forms</a></li>
+            <ol type="a">
+                <li>Login</li>
+                <li>Age gate</li>
+                <li>Survey</li>
+            </ol>
         </ol>
         <h1 id="Document_structure">HTML</h1>
         <h2>Basic HTML document structure</h2>
@@ -279,6 +284,35 @@
             <label>Politics<input type="checkbox" name="newsletter_topic" value="3"></label><br>
             <label>Science<input type="checkbox" name="newsletter_topic" value="4"></label><br>
             <button type="submit">Sign me up!</button>
+        </form>
+        <h3>Food order form</h3>
+        <form action="">
+            <label><strong>Ime i Prezime*</strong><br><input type="text" required></label><br><br>
+            <label><strong>Broj telefona*</strong><br><input type="tel" required></label><br><br>
+            <label><strong>Adresa*</strong><br><input type="text" required></label><br><br>
+            <label><strong>Željeno vrijeme dostave*</strong><br><input type="time"></label><br><br>
+            <label><strong>Odaberite jelo*</strong><br><input list="food_list" type="text"></label><br><br>
+            <p><strong>Odaberite prilog:</strong></p>
+            <label>Pomfrit<input type="checkbox" value="1"></label><br>
+            <label>Dodatni umak<input type="checkbox" value="2"></label><br>
+            <label>Kruh (100g)<input type="checkbox" value="3"></label><br>
+            <label>Coca-cola (0.5L)<input type="checkbox" value="4"></label><br>
+            <label>Gazirana voda (0.5L)<input type="checkbox" value="5"></label><br>
+            <p><strong>Želite li beskontakntu dostavu?</strong<br></p>
+            <label>Da<input type="radio" name="answer" value="true"></label>
+            <label>Ne<input type="radio" name="answer" value="false"></label><br><br>
+            <label>Dodajte komentar:<br><textarea name="comment" maxlength="250" rows="4" cols="40"></textarea></label>
+            <p>* - Obvezan unos podataka</p>
+            <button type="submit">Submit order!</button>
+            <datalist id="food_list">
+                <option value="Classic Hamburger">100% mljevena junetina, zelena salata, rajčica, umak</option>
+                <option value="Cheeseburger">100% mljevena junetina, sir, umak, krastavci</option>
+                <option value="Palačinke">Čokolada, šumsko voće, marelica</option>
+                <option value="Pizza - Capricciosa">Šunka, sir, rajčica, gljive</option>
+                <option value="Pizza - Diavolo">Šunka, sir, rajčica, ljuti feferoni, kulen</option>
+                <option value="Sladoled">Čokolada, vanilija, jagoda, Šumsko voće</option>
+                <option value="Tortilja">Piletina, zelena salata, kukuruz, umak, grah</option>
+            </datalist>
         </form>
     </body>
 </html>
